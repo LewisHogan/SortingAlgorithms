@@ -7,3 +7,5 @@ project (
     LANGUAGES CXX
 )
 
+add_executable(insertion_sort src/insertion_sort/insertion.cpp)
+target_compile_features(insertion_sort PRIVATE cxx_std_17)
